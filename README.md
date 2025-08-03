@@ -1,4 +1,4 @@
-# TinyTuya
+# TinyTuya C# Port
 
 [![License](https://img.shields.io/github/license/jasonacox/tinytuya)](https://img.shields.io/github/license/jasonacox/tinytuya)
 [![PyPI version](https://badge.fury.io/py/tinytuya.svg)](https://badge.fury.io/py/tinytuya)
