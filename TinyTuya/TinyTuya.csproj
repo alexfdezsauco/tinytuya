@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>TinyTuya</AssemblyName>
+    <RootNamespace>TinyTuya</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>TinyTuya</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>alexfdezsauco</Authors>
+    <Company>alexfdezsauco</Company>
+    <Description>C# API for Tuya WiFi smart devices using a direct local area network (LAN) connection or the cloud (TuyaCloud API).</Description>
+    <PackageTags>tuya;iot;smarthome;smartdevice</PackageTags>
+    <RepositoryUrl>https://github.com/alexfdezsauco/tinytuya</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Net.Sockets" Version="4.3.0" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
+  </ItemGroup>
+
+</Project>
+
